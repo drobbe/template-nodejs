@@ -1,0 +1,23 @@
+2023/10/18-18:51:59.390 3ac8 Reusing MANIFEST C:\Users\edgar\Desktop\test museo\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/18-18:51:59.390 3ac8 Recovering log #261
+2023/10/18-18:51:59.400 3ac8 Reusing old log C:\Users\edgar\Desktop\test museo\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000261.log 
+2023/10/18-18:52:09.806 24c4 Level-0 table #271: started
+2023/10/18-18:52:09.815 24c4 Level-0 table #271: 424059 bytes OK
+2023/10/18-18:52:09.816 24c4 Delete type=0 #261
+2023/10/18-18:52:09.817 24c4 Manual compaction at level-0 from '\x00A\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00B\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/18-18:52:09.998 2cfc Compacting 1@1 + 6@2 files
+2023/10/18-18:52:10.032 2cfc Generated table #272@1: 27444 keys, 2188362 bytes
+2023/10/18-18:52:10.059 2cfc Generated table #273@1: 2622 keys, 2148793 bytes
+2023/10/18-18:52:10.079 2cfc Generated table #274@1: 2670 keys, 2148571 bytes
+2023/10/18-18:52:10.106 2cfc Generated table #275@1: 11908 keys, 2169828 bytes
+2023/10/18-18:52:10.157 2cfc Generated table #276@1: 27757 keys, 2267294 bytes
+2023/10/18-18:52:10.172 2cfc Generated table #277@1: 21959 keys, 493315 bytes
+2023/10/18-18:52:10.172 2cfc Compacted 1@1 + 6@2 files => 11416163 bytes
+2023/10/18-18:52:10.173 2cfc compacted to: files[ 0 0 6 0 0 0 0 ]
+2023/10/18-18:52:10.173 2cfc Delete type=2 #263
+2023/10/18-18:52:10.173 2cfc Delete type=2 #264
+2023/10/18-18:52:10.173 2cfc Delete type=2 #265
+2023/10/18-18:52:10.173 2cfc Delete type=2 #266
+2023/10/18-18:52:10.173 2cfc Delete type=2 #267
+2023/10/18-18:52:10.173 2cfc Delete type=2 #268
+2023/10/18-18:52:10.173 2cfc Delete type=2 #271

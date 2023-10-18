@@ -1,14 +1,18 @@
 {
-  "name": "@fl0/template-nodejs",
+  "name": "test-museo",
   "version": "1.0.0",
-  "description": "A simple Node.js Express app for getting started on FL0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
+  "type": "module",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "random-number": "^0.0.9",
+    "venom-bot": "^5.0.21"
   }
 }
