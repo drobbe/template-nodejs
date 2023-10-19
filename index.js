@@ -29,11 +29,12 @@ function createServerDummy() {
 
 async function start() {
   let count = 1;
-  fastify.listen({ port: 10000 }, (err, address) => {
+
+  const server = createServerDummy();
+  server.listen({ port: 10000 }, (err, address) => {
     if (err) throw err;
     // Server is now listening on ${address}
   });
-  createServerDummy();
   while (true) {
     try {
       const article = await extract(input);
