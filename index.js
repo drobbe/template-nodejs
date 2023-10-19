@@ -4,13 +4,36 @@ import axios from 'axios';
 
 import { setTimeout } from 'timers/promises';
 
+import Fastify from 'fastify';
+
 const input = 'https://coleccionsolo.com/visits/';
 const article = await extract(input);
 
 let countOriginalPara = article.content.match(/<p>(.*?)<\/p>/g).length;
 
+function createServerDummy() {
+  const fastify = Fastify({
+    logger: true,
+  });
+
+  fastify.get('/', (request, reply) => {
+    reply.send({ hello: 'world' });
+    makeRequest({
+      title: 'Esto es una prueba 👻👻👻',
+      content: 'Si esta arriba el servicio',
+    });
+  });
+
+  return fastify;
+}
+
 async function start() {
   let count = 1;
+  fastify.listen({ port: 10000 }, (err, address) => {
+    if (err) throw err;
+    // Server is now listening on ${address}
+  });
+  createServerDummy();
   while (true) {
     try {
       const article = await extract(input);
